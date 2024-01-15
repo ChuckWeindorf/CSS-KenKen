@@ -6,9 +6,9 @@ html {
   font-size: 10px;
 }
 body {
-  width: 300px;
   margin: 5px;
   background-color: rgb(64, 107, 114);
+  width: 815px;
 }
 .grid {
     display:grid;
@@ -21,7 +21,8 @@ body {
     position: relative;
     font-size: 2rem;
     background-color: white;
-    height: 75px;
+    height: 200px;
+    width: 200px;
 }
 #box3, #box7, #box11, #box12, #box15 { 
   border-left: 0.5rem solid black;
@@ -33,18 +34,18 @@ body {
 }
 .prompt{
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 5px;
+  left: 5px;
 }
 .answer{
   width: 50%;
   height: 50%;
   text-align: center;
 }
-.special {
+.special answer{
   border: none;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 @media screen and (min-width: 475px) { 
-  #html {font-size: 16px;}
+  html {font-size: 16px;}
 }
